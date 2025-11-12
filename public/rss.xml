@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Rivermark University News</title>
+    <link>https://www.rivermark-university.example/news</link>
+    <description>Fictional updates from Rivermark University.</description>
+    <item>
+      <title>Rivermark Hosts Hydro Innovation Summit</title>
+      <link>https://www.rivermark-university.example/news/hydro-innovation-summit</link>
+      <guid>https://www.rivermark-university.example/news/hydro-innovation-summit</guid>
+      <pubDate>Wed, 12 Mar 2025 09:00:00 +0000</pubDate>
+      <description>Summit showcases resilient riverfront planning prototypes and student-led innovations.</description>
+    </item>
+    <item>
+      <title>River Guardian Fellows Selected</title>
+      <link>https://www.rivermark-university.example/news/river-guardian-fellows</link>
+      <guid>https://www.rivermark-university.example/news/river-guardian-fellows</guid>
+      <pubDate>Mon, 24 Feb 2025 10:00:00 +0000</pubDate>
+      <description>Meet the new cohort of River Guardian Fellows conducting field research across estuary communities.</description>
+    </item>
+  </channel>
+</rss>

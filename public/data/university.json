@@ -1,0 +1,30 @@
+{
+  "name": "Rivermark University",
+  "tagline": "Discover. Design. Deliver.",
+  "establishedYear": 1896,
+  "address": {
+    "street": "400 River Esplanade",
+    "city": "Harborbend",
+    "region": "Cascadia Province",
+    "postalCode": "00045",
+    "country": "Fictionland"
+  },
+  "contact": {
+    "phone": "+0004002000",
+    "email": "info@rivermark.example",
+    "officeHours": "Monday-Friday 08:30-17:30"
+  },
+  "socialLinks": [
+    { "label": "Riverbook", "url": "https://social.example/rivermark" },
+    { "label": "Streamline", "url": "https://streamline.example/rivermark" },
+    { "label": "Channel", "url": "https://channel.example/rivermark" }
+  ],
+  "accreditation": "Accredited by the Cascadia Higher Learning Council (fictional).",
+  "mission": "To cultivate resilient leaders and researchers who design equitable solutions for river-connected communities worldwide.",
+  "vision": "Rivermark University will be the leading river valley institution shaping innovation across water, health, and society.",
+  "snapshot": {
+    "studentCount": 18420,
+    "facultiesCount": 8,
+    "fullTimeStaff": 2100
+  }
+}

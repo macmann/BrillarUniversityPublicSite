@@ -1,0 +1,12 @@
+Rivermark University image placeholders (all fictional).
+
+Recommended assets:
+- hero-1600x600.jpg (Hero banner, 1600x600)
+- campus-visit-1200x800.jpg (Visit page hero, 1200x800)
+- research-lab-1000x600.jpg (Research center feature, 1000x600)
+- student-life-900x600.jpg (Student life stories, 900x600)
+- news-hydro-1200x630.jpg (Featured news article, 1200x630)
+- lecturer-300x300.jpg (Lecturer portrait placeholder, 300x300)
+- people/lecturer-01.jpg through people/lecturer-48.jpg (Individual lecturer portraits, 300x300)
+
+Use royalty-free placeholder services such as https://images.example.com/seed/{keyword}/WIDTHxHEIGHT to quickly generate replacements.

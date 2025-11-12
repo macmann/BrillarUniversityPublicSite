@@ -1,0 +1,50 @@
+[
+  {
+    "id": "center-hydro-innovation",
+    "name": "HydroUrban Innovation Lab",
+    "description": "Leads interdisciplinary research on flood-resilient urban design, smart ports, and riverfront public spaces.",
+    "leadLecturerId": "lec-samira-quell",
+    "activeProjects": ["Adaptive levee sensing network", "Floating community resource hubs", "Circular water system pilots"],
+    "fundingSources": ["Cascadia Resilience Fund", "Harborbend Innovation Council"]
+  },
+  {
+    "id": "center-ecosystems",
+    "name": "River Biodiversity & Ecosystems Center",
+    "description": "Investigates biodiversity, water quality, and sediment transport to guide restoration strategies.",
+    "leadLecturerId": "lec-nivaan-sage",
+    "activeProjects": ["Estuary eDNA observatory", "Sediment health dashboard", "River guardian fellowship"],
+    "fundingSources": ["Fictionland Environment Endowment", "Tidal Communities Coalition"]
+  },
+  {
+    "id": "center-social-innovation",
+    "name": "Civic Innovation Studio",
+    "description": "Co-designs social enterprises and policy prototypes advancing equitable economic development.",
+    "leadLecturerId": "lec-harlan-vey",
+    "activeProjects": ["Community venture accelerator", "River apprenticeship program", "Impact finance sandbox"],
+    "fundingSources": ["Harborbend Social Impact Fund", "River Valley Chamber"]
+  },
+  {
+    "id": "center-health",
+    "name": "River Health Collaboratory",
+    "description": "Connects medicine, nursing, and public health experts to improve healthcare delivery along river corridors.",
+    "leadLecturerId": "lec-selia-hadrin",
+    "activeProjects": ["Mobile clinic telehealth expansion", "Waterborne illness mitigation", "Biomedical device incubator"],
+    "fundingSources": ["Riverwell Health Trust", "Cascadia Medical Innovation Grant"]
+  },
+  {
+    "id": "center-education",
+    "name": "Learning Futures Observatory",
+    "description": "Explores inclusive curriculum, outdoor learning, and leadership pathways for river valley schools.",
+    "leadLecturerId": "lec-jalen-sorrell",
+    "activeProjects": ["Curriculum co-design studios", "Outdoor learning certification", "Leadership residency assessment"],
+    "fundingSources": ["Rivermark Education Fund", "Community Learning Alliance"]
+  },
+  {
+    "id": "center-digital",
+    "name": "Civic Data & Privacy Institute",
+    "description": "Develops secure, ethical data systems supporting water utilities, mobility networks, and civic engagement.",
+    "leadLecturerId": "lec-juniper-varek",
+    "activeProjects": ["Privacy-aware water telemetry", "Mobility equity analytics", "Civic AI governance toolkit"],
+    "fundingSources": ["Delta Digital Futures", "Harborbend Smart City Initiative"]
+  }
+]

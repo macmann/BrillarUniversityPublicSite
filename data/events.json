@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Hydro Innovation Summit",
+    "date": "2025-03-14T09:00:00",
+    "location": "RiverWorks Hall, Harborbend",
+    "description": "A two-day showcase of adaptive infrastructure prototypes, panels, and community tours.",
+    "registrationUrl": "https://events.example/rivermark-hydro-summit"
+  },
+  {
+    "title": "River Guardian Fellows Launch",
+    "date": "2025-05-02T13:00:00",
+    "location": "Estuary Field Station",
+    "description": "Orientation for the new cohort of River Guardian Fellows with lab demonstrations.",
+    "registrationUrl": "https://events.example/guardian-launch"
+  },
+  {
+    "title": "Civic Data Commons Workshop",
+    "date": "2024-11-05T10:00:00",
+    "location": "Civic Innovation Studio",
+    "description": "Hands-on training for building privacy-first dashboards using the Civic Data Commons.",
+    "registrationUrl": "https://events.example/civic-data-workshop"
+  },
+  {
+    "title": "River Schools Leadership Residency Info Session",
+    "date": "2024-12-02T18:00:00",
+    "location": "Learning Futures Observatory",
+    "description": "Meet faculty mentors and alumni from the Leadership Residency program.",
+    "registrationUrl": "https://events.example/leadership-residency"
+  },
+  {
+    "title": "Floating Clinic Commissioning",
+    "date": "2025-01-20T11:00:00",
+    "location": "Harborbend Marina",
+    "description": "Celebrate the launch of two new clinic vessels with tours and health screenings.",
+    "registrationUrl": "https://events.example/floating-clinic"
+  },
+  {
+    "title": "Winter Riverwalk Light Festival",
+    "date": "2024-12-18T17:30:00",
+    "location": "Harborbend Riverwalk",
+    "description": "Interactive art installations created by River Arts students with live performances.",
+    "registrationUrl": "https://events.example/winter-riverwalk"
+  },
+  {
+    "title": "Telehealth Equity Framework Webinar",
+    "date": "2024-08-05T09:30:00",
+    "location": "Virtual Event",
+    "description": "Public health researchers present the new telehealth equity framework and implementation toolkit.",
+    "registrationUrl": "https://events.example/telehealth-framework"
+  },
+  {
+    "title": "Civic Tech Challenge Finals",
+    "date": "2024-06-15T14:00:00",
+    "location": "Computing Hub Auditorium",
+    "description": "Finalist teams pitch privacy-first civic apps to community judges.",
+    "registrationUrl": "https://events.example/civic-tech-finals"
+  },
+  {
+    "title": "River Youth Mentorship Kickoff",
+    "date": "2024-09-08T16:00:00",
+    "location": "Counseling & Wellness Center",
+    "description": "Meet mentors, partner school leaders, and youth participants in the mentorship network.",
+    "registrationUrl": "https://events.example/mentorship-kickoff"
+  },
+  {
+    "title": "Resilience Scholarship Celebration",
+    "date": "2024-10-10T18:30:00",
+    "location": "Engineering Pavilion Atrium",
+    "description": "Honor recipients of the new resilience engineering scholarship and hear their project plans.",
+    "registrationUrl": "https://events.example/resilience-scholarship"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "level": "Undergraduate",
+    "cycles": [
+      {"season": "Fall 2025", "deadline": "2025-07-01", "applicationFee": "$65", "entryRequirements": "High school completion, math proficiency"},
+      {"season": "Spring 2026", "deadline": "2025-11-15", "applicationFee": "$65", "entryRequirements": "High school completion, personal statement"},
+      {"season": "Fall 2026", "deadline": "2026-07-01", "applicationFee": "$70", "entryRequirements": "High school completion, portfolio for arts applicants"}
+    ]
+  },
+  {
+    "level": "Masters",
+    "cycles": [
+      {"season": "Fall 2025", "deadline": "2025-05-15", "applicationFee": "$85", "entryRequirements": "Bachelor's degree, two recommendations"},
+      {"season": "Spring 2026", "deadline": "2025-09-30", "applicationFee": "$85", "entryRequirements": "Bachelor's degree, resume"},
+      {"season": "Fall 2026", "deadline": "2026-05-15", "applicationFee": "$90", "entryRequirements": "Bachelor's degree, statement of purpose"},
+      {"season": "Spring 2027", "deadline": "2026-09-30", "applicationFee": "$90", "entryRequirements": "Bachelor's degree, interview"}
+    ]
+  },
+  {
+    "level": "PhD",
+    "cycles": [
+      {"season": "Fall 2025", "deadline": "2025-03-01", "applicationFee": "$95", "entryRequirements": "Masters degree, research proposal"},
+      {"season": "Fall 2026", "deadline": "2026-03-01", "applicationFee": "$95", "entryRequirements": "Masters degree, faculty endorsement"},
+      {"season": "Fall 2027", "deadline": "2027-03-01", "applicationFee": "$100", "entryRequirements": "Masters degree, portfolio of publications"}
+    ]
+  }
+]
