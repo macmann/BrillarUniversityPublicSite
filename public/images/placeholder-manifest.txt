@@ -1,7 +1,8 @@
-Remote image sources now referenced directly in markup:
-- Hero/banner imagery: https://images.pexels.com/photos/1184587/pexels-photo-1184587.jpeg
-- Research feature photo: https://images.pexels.com/photos/3737436/pexels-photo-3737436.jpeg
-- Lecturer default portrait: https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg
-- Faculty & lecturer portraits: rotating selection of royalty-free portraits from Pexels (see data files for exact URLs).
+Local placeholder images referenced throughout the site:
+- Hero/banner imagery: /images/hero-1600x600.jpg
+- Admissions feature photo: /images/campus-visit-1200x800.jpg
+- News hero and feature photos: /images/news-hydro-1200x630.jpg, /images/research-lab-1000x600.jpg
+- Lecturer default portrait: /images/lecturer-300x300.jpg
+- Faculty & lecturer portraits: see /images/people for the rotating selection bundled with the project.
 
-All images are royalty-free and supplied by Pexels with query parameters restricting size (w/h) and automatic compression.
+All images are royalty-free placeholders bundled with the repository so pages do not rely on external CDNs.
