@@ -1,27 +1,85 @@
 [
   {
     "level": "Undergraduate",
+    "title": "Undergraduate admissions",
+    "overview": "Ideal for high school seniors, transfer, and foundation year applicants pursuing studio, lab, or liberal arts pathways.",
+    "tuitionRange": "Estimated tuition: $28,400 – $32,100 annually before scholarships",
+    "supportContact": "Talk with an undergraduate coach · undergrad-admissions@brillaracademy.example",
     "cycles": [
-      {"season": "Fall 2025", "deadline": "2025-07-01", "applicationFee": "$65", "entryRequirements": "High school completion, math proficiency"},
-      {"season": "Spring 2026", "deadline": "2025-11-15", "applicationFee": "$65", "entryRequirements": "High school completion, personal statement"},
-      {"season": "Fall 2026", "deadline": "2026-07-01", "applicationFee": "$70", "entryRequirements": "High school completion, portfolio for arts applicants"}
+      {
+        "season": "Fall 2025 Priority",
+        "deadline": "January 15, 2025",
+        "applicationFee": "$65",
+        "decisions": "Released March 18, 2025",
+        "orientation": "Welcome Week begins August 28"
+      },
+      {
+        "season": "Fall 2025 Regular",
+        "deadline": "March 30, 2025",
+        "applicationFee": "$65",
+        "decisions": "Released May 10, 2025",
+        "orientation": "Residence move-in starts August 24"
+      },
+      {
+        "season": "Spring 2026",
+        "deadline": "October 1, 2025",
+        "applicationFee": "$65",
+        "decisions": "Released November 12, 2025",
+        "orientation": "January Welcome kicks off January 6"
+      }
     ]
   },
   {
     "level": "Masters",
+    "title": "Masters programmes",
+    "overview": "Professionals and recent graduates ready to deepen expertise through applied research, studios, and consultancy projects.",
+    "tuitionRange": "Estimated tuition: $22,600 – $28,900 annually before assistantships",
+    "supportContact": "Graduate admissions concierge · grad-admissions@brillaracademy.example",
     "cycles": [
-      {"season": "Fall 2025", "deadline": "2025-05-15", "applicationFee": "$85", "entryRequirements": "Bachelor's degree, two recommendations"},
-      {"season": "Spring 2026", "deadline": "2025-09-30", "applicationFee": "$85", "entryRequirements": "Bachelor's degree, resume"},
-      {"season": "Fall 2026", "deadline": "2026-05-15", "applicationFee": "$90", "entryRequirements": "Bachelor's degree, statement of purpose"},
-      {"season": "Spring 2027", "deadline": "2026-09-30", "applicationFee": "$90", "entryRequirements": "Bachelor's degree, interview"}
+      {
+        "season": "Fall 2025 Priority",
+        "deadline": "December 1, 2024",
+        "applicationFee": "$85",
+        "decisions": "Released January 25, 2025",
+        "orientation": "Graduate residency launches August 19"
+      },
+      {
+        "season": "Fall 2025 Final",
+        "deadline": "April 15, 2025",
+        "applicationFee": "$85",
+        "decisions": "Released May 20, 2025",
+        "orientation": "Research lab onboarding begins August 12"
+      },
+      {
+        "season": "Spring 2026",
+        "deadline": "September 30, 2025",
+        "applicationFee": "$85",
+        "decisions": "Released October 25, 2025",
+        "orientation": "Graduate welcome intensive begins January 7"
+      }
     ]
   },
   {
     "level": "PhD",
+    "title": "Doctoral fellowships",
+    "overview": "Research leaders focused on advancing river resilience, civic technology, health equity, and design futures.",
+    "tuitionRange": "Full funding packages average $34,500 stipend plus tuition remission",
+    "supportContact": "Doctoral pathways team · doctoral@brillaracademy.example",
     "cycles": [
-      {"season": "Fall 2025", "deadline": "2025-03-01", "applicationFee": "$95", "entryRequirements": "Masters degree, research proposal"},
-      {"season": "Fall 2026", "deadline": "2026-03-01", "applicationFee": "$95", "entryRequirements": "Masters degree, faculty endorsement"},
-      {"season": "Fall 2027", "deadline": "2027-03-01", "applicationFee": "$100", "entryRequirements": "Masters degree, portfolio of publications"}
+      {
+        "season": "Fall 2025 Priority",
+        "deadline": "November 15, 2024",
+        "applicationFee": "$95",
+        "decisions": "Faculty review notifications by February 1, 2025",
+        "orientation": "Doctoral institute commences August 5"
+      },
+      {
+        "season": "Fall 2025 Final",
+        "deadline": "February 1, 2025",
+        "applicationFee": "$95",
+        "decisions": "Released March 20, 2025",
+        "orientation": "Lab onboarding begins July 29"
+      }
     ]
   }
 ]

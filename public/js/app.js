@@ -100,7 +100,7 @@ function renderHome() {
       .map(
         (item) => `
         <li>
-          <a href="/news/${item.slug}.html">${item.title}</a>
+          <a href="/news/article.html?slug=${item.slug}">${item.title}</a>
           <time datetime="${item.date}">${new Date(item.date).toLocaleDateString()}</time>
         </li>`
       )
@@ -201,37 +201,32 @@ function setupCourseSearch() {
 }
 
 function renderAdmissions() {
-  const intakeTables = document.getElementById('intake-tables');
+  const intakeCards = document.getElementById('intake-cards');
   const requirementsGrid = document.getElementById('requirements-grid');
-  if (intakeTables) {
-    intakeTables.innerHTML = state.intakes
+  if (intakeCards) {
+    intakeCards.innerHTML = state.intakes
       .map((intake) => {
-        const rows = intake.cycles
+        const cycles = intake.cycles
           .map(
             (cycle) => `
-            <tr>
-              <td>${cycle.season}</td>
-              <td>${cycle.deadline}</td>
-              <td>${cycle.applicationFee}</td>
-              <td>${cycle.entryRequirements}</td>
-            </tr>`
+            <li>
+              <strong>${cycle.season}</strong><br>
+              Deadline: ${cycle.deadline}<br>
+              Application fee: ${cycle.applicationFee}${cycle.decisions ? `<br><span class="cycle-note">Decisions: ${cycle.decisions}</span>` : ''}${cycle.orientation ? `<br><span class="cycle-note">Orientation: ${cycle.orientation}</span>` : ''}
+            </li>`
           )
           .join('');
         return `
-        <div class="intake-table">
-          <h3>${intake.level} Intakes</h3>
-          <table>
-            <thead>
-              <tr>
-                <th>Season</th>
-                <th>Deadline</th>
-                <th>Application Fee</th>
-                <th>Entry Requirements</th>
-              </tr>
-            </thead>
-            <tbody>${rows}</tbody>
-          </table>
-        </div>`;
+        <article class="card intake-card">
+          <header>
+            <span class="badge">${intake.level}</span>
+            <h3>${intake.title}</h3>
+            <p>${intake.overview}</p>
+            <p class="tuition-range">${intake.tuitionRange}</p>
+          </header>
+          <ul>${cycles}</ul>
+          <footer>${intake.supportContact}</footer>
+        </article>`;
       })
       .join('');
   }
@@ -240,11 +235,17 @@ function renderAdmissions() {
       .map(
         (req) => `
         <article class="card">
-          <h3>${req.level}</h3>
+          <span class="badge">${req.level}</span>
+          <h3>${req.title}</h3>
           <p><strong>Minimum GPA:</strong> ${req.minimumGPA}</p>
-          <p><strong>Documents:</strong> ${req.requiredDocuments.join(', ')}</p>
-          <p><strong>English Proficiency:</strong> ${req.englishTests.join(', ')}</p>
-          <p><strong>Scholarships:</strong> ${req.scholarshipOverview}</p>
+          <ul>
+            ${req.requiredDocuments.map((doc) => `<li>${doc}</li>`).join('')}
+          </ul>
+          <p><strong>English proficiency options:</strong> ${req.englishTests.join(', ')}</p>
+          <p><strong>Funding snapshot:</strong> ${req.scholarshipOverview}</p>
+          ${req.testingNotes ? `<p>${req.testingNotes}</p>` : ''}
+          ${req.additionalNotes ? `<p>${req.additionalNotes}</p>` : ''}
+          <footer>${req.supportContact}</footer>
         </article>`
       )
       .join('');
@@ -278,10 +279,19 @@ function renderNews() {
       .map(
         (item) => `
         <article class="card news-card">
-          <time datetime="${item.date}">${new Date(item.date).toLocaleDateString()}</time>
-          <h3><a href="/news/${item.slug}.html">${item.title}</a></h3>
+          <figure>
+            <img src="${item.image}" alt="${item.imageAlt}">
+            <span class="category-chip">${item.category}</span>
+          </figure>
+          <time datetime="${item.date}">${new Date(item.date).toLocaleDateString(undefined, {
+            month: 'long',
+            day: 'numeric',
+            year: 'numeric',
+          })}</time>
+          <h3><a href="/news/article.html?slug=${item.slug}">${item.title}</a></h3>
           <p>${item.summary}</p>
-          <a class="card-link" href="/news/${item.slug}.html">Read more</a>
+          <p class="news-card-meta">By ${item.author} · ${item.readTime}</p>
+          <a class="card-link" href="/news/article.html?slug=${item.slug}">Read story</a>
         </article>`
       )
       .join('');
@@ -353,9 +363,92 @@ function renderLecturerDetail() {
 }
 
 function renderNewsDetail() {
-  const slug = window.location.pathname.split('/').pop().replace('.html', '');
+  const url = new URL(window.location.href);
+  const slug = url.searchParams.get('slug') || window.location.pathname.split('/').pop().replace('.html', '');
   const item = state.news.find((newsItem) => newsItem.slug === slug);
-  if (!item) return;
-  const summaryEl = document.querySelector('.summary');
+  const articleEl = document.querySelector('[data-news-article]');
+  if (!item || !articleEl) {
+    const placeholder = document.querySelector('[data-news-missing]');
+    if (placeholder) placeholder.hidden = false;
+    return;
+  }
+
+  document.title = `${item.title} | Brillar Academy`;
+
+  const titleEl = document.querySelector('[data-article-title]');
+  if (titleEl) titleEl.textContent = item.title;
+
+  const summaryEl = document.querySelector('[data-article-summary]');
   if (summaryEl) summaryEl.textContent = item.summary;
+
+  const categoryEl = document.querySelector('[data-article-category]');
+  if (categoryEl) categoryEl.textContent = item.category;
+
+  const dateEl = document.querySelector('[data-article-date]');
+  if (dateEl) {
+    dateEl.textContent = new Date(item.date).toLocaleDateString(undefined, {
+      weekday: 'long',
+      month: 'long',
+      day: 'numeric',
+      year: 'numeric',
+    });
+    dateEl.setAttribute('datetime', item.date);
+  }
+
+  const readTimeEl = document.querySelector('[data-article-readtime]');
+  if (readTimeEl) readTimeEl.textContent = item.readTime;
+
+  const authorEl = document.querySelector('[data-article-author]');
+  if (authorEl) authorEl.textContent = item.author;
+
+  const imageEl = document.querySelector('[data-article-image]');
+  if (imageEl) {
+    imageEl.src = item.image;
+    imageEl.alt = item.imageAlt;
+  }
+
+  const captionEl = document.querySelector('[data-article-caption]');
+  if (captionEl) captionEl.textContent = item.imageCaption || '';
+
+  const bodyEl = document.querySelector('[data-article-body]');
+  if (bodyEl && Array.isArray(item.body)) {
+    bodyEl.innerHTML = item.body.map((paragraph) => `<p>${paragraph}</p>`).join('');
+  }
+
+  const quoteEl = document.querySelector('[data-article-quote]');
+  if (quoteEl) {
+    if (item.pullQuote) {
+      quoteEl.textContent = item.pullQuote;
+      quoteEl.removeAttribute('hidden');
+    } else {
+      quoteEl.setAttribute('hidden', 'true');
+    }
+  }
+
+  const tagsEl = document.querySelector('[data-article-tags]');
+  if (tagsEl) {
+    if (Array.isArray(item.tags) && item.tags.length > 0) {
+      tagsEl.innerHTML = item.tags.map((tag) => `<li>${tag}</li>`).join('');
+      tagsEl.removeAttribute('hidden');
+    } else {
+      tagsEl.setAttribute('hidden', 'true');
+    }
+  }
+
+  const relatedEl = document.querySelector('[data-article-related]');
+  if (relatedEl) {
+    if (Array.isArray(item.relatedLinks) && item.relatedLinks.length > 0) {
+      relatedEl.parentElement?.removeAttribute('hidden');
+      relatedEl.innerHTML = item.relatedLinks
+        .map((link) => {
+          if (typeof link === 'string') {
+            return `<li><a href="${link}">${link.replace('/news/', '').replace('.html', '').replace(/[-_]/g, ' ')}</a></li>`;
+          }
+          return `<li><a href="${link.url}">${link.label}</a></li>`;
+        })
+        .join('');
+    } else {
+      relatedEl.parentElement?.setAttribute('hidden', 'true');
+    }
+  }
 }

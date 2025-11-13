@@ -2,196 +2,300 @@
   {
     "title": "Brillar Academy Hosts Hydro Innovation Summit",
     "date": "2025-03-12",
+    "category": "Research",
     "summary": "Global experts joined Brillar Academy to unveil hydro innovation prototypes and resilient planning strategies.",
     "slug": "hydro-innovation-summit",
-    "fullContent": "The HydroUrban Innovation Lab welcomed delegates for three days of design sprints, policy forums, and community showcases. Participants co-created adaptive infrastructure models and launched the River Guardian Fellowship supporting graduate researchers.",
-    "tags": [
-      "Research",
-      "Engineering"
+    "image": "https://images.pexels.com/photos/3737436/pexels-photo-3737436.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1",
+    "imageAlt": "Researchers presenting models of hydro innovation",
+    "imageCaption": "Attendees share scale models during the Hydro Innovation Summit in RiverWorks Hall.",
+    "author": "Liora Naveen",
+    "readTime": "4 min read",
+    "body": [
+      "The HydroUrban Innovation Lab welcomed 600 delegates to the inaugural Hydro Innovation Summit, an immersive convening that bridged civil engineering with ecological stewardship.",
+      "Interactive studios featured modular levee technologies, smart sensor networks, and community-designed flood maps created with local partners.",
+      "The summit concluded with the launch of the River Guardian Fellowship, providing student researchers with fieldwork stipends and seed funding for pilot projects."
     ],
+    "pullQuote": "\"Our river valley is a living laboratory,\" said Professor Liora Naveen, summit chair. \"We are uniquely positioned to prototype solutions that uplift communities along waterways worldwide.\"",
+    "tags": ["Research", "Engineering"],
     "relatedLinks": [
-      "/public/research.html#centers",
-      "/public/admissions.html"
+      {"label": "Explore the HydroUrban Innovation Lab", "url": "/research.html#centers"},
+      {"label": "Admissions for design researchers", "url": "/admissions.html#intakes"}
     ]
   },
   {
     "title": "River Guardian Fellows Selected for Estuary Residencies",
     "date": "2025-02-24",
+    "category": "Student Life",
     "summary": "Twelve graduate fellows will conduct estuary fieldwork with community scientists this summer.",
     "slug": "river-guardian-fellows",
-    "fullContent": "The River Biodiversity & Ecosystems Center named twelve fellows representing science, policy, and arts disciplines. Their residencies include eDNA sampling, oral history gathering, and policy co-design with estuary residents.",
-    "tags": [
-      "Research",
-      "Student Life"
+    "image": "https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1",
+    "imageAlt": "Students collecting samples near water",
+    "imageCaption": "Fellows map estuary biodiversity alongside community scientists.",
+    "author": "Kai Mendel",
+    "readTime": "3 min read",
+    "body": [
+      "The River Biodiversity & Ecosystems Center named twelve River Guardian Fellows representing science, policy, and arts disciplines.",
+      "Residencies include eDNA sampling, oral history gathering, and policy co-design with estuary residents across Harborbend.",
+      "Students will present their findings at the Autumn River Futures Colloquium hosted on campus in October."
     ],
+    "pullQuote": "\"Community science keeps our research accountable to the people who live with river change every day,\" noted programme director Amaya Solis.",
+    "tags": ["Research", "Student Life"],
     "relatedLinks": [
-      "/public/research.html#centers",
-      "/public/academics.html"
+      {"label": "Meet our research centres", "url": "/research.html#centers"},
+      {"label": "Plan your visit to campus", "url": "/visit.html"}
     ]
   },
   {
     "title": "Business Students Launch Harborbend Social Venture Fund",
     "date": "2025-01-30",
+    "category": "Innovation",
     "summary": "The Civic Innovation Studio partnered with alumni to invest in five community enterprises.",
     "slug": "social-venture-fund",
-    "fullContent": "MBA and MPA learners raised $1.2M in fictional capital to support cooperative housing, solar river ferries, and youth apprenticeships. Portfolio teams will provide mentorship and measure community impact over three years.",
-    "tags": [
-      "Business",
-      "Community"
+    "image": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1",
+    "imageAlt": "Students presenting in a modern workspace",
+    "imageCaption": "MBA and MPA learners pitch venture concepts to alumni mentors.",
+    "author": "Maya Chen",
+    "readTime": "5 min read",
+    "body": [
+      "MBA and MPA learners raised $1.2 million in fictional capital to support cooperative housing, solar river ferries, and youth apprenticeships.",
+      "Portfolio teams will provide mentorship, data evaluation, and design support over three years to ensure community ownership of projects.",
+      "The fund’s first showcase will feature open-door reviews with Harborbend entrepreneurs in May."
     ],
+    "pullQuote": "\"Our students are designing financial tools that honour community leadership, not extractive models,\" said studio director Mx. Kellan Wright.",
+    "tags": ["Business", "Community"],
     "relatedLinks": [
-      "/public/academics.html#faculties",
-      "/public/research.html"
+      {"label": "Explore faculties and schools", "url": "/academics.html#faculties"},
+      {"label": "Download the media kit", "url": "/media-kit.html"}
     ]
   },
   {
     "title": "College of Medicine Expands Floating Clinic Fleet",
     "date": "2025-01-12",
+    "category": "Health",
     "summary": "Two new clinic vessels will increase care access for river settlements by 40 percent.",
     "slug": "floating-clinic-fleet",
-    "fullContent": "Supported by the River Health Collaboratory, the clinics feature telehealth hubs, diagnostics labs, and onboard teaching suites. Nursing and public health students will complete immersive rotations beginning Fall 2025.",
-    "tags": [
-      "Health",
-      "Community"
+    "image": "https://images.pexels.com/photos/305566/pexels-photo-305566.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1",
+    "imageAlt": "Medical professionals preparing equipment on a boat",
+    "imageCaption": "Nursing and public health students rehearse telehealth check-ins aboard the new clinic vessel.",
+    "author": "Nisha Duarte",
+    "readTime": "4 min read",
+    "body": [
+      "Supported by the River Health Collaboratory, the clinics feature telehealth hubs, diagnostics labs, and onboard teaching suites.",
+      "Nursing and public health students will complete immersive rotations beginning Fall 2025, working alongside local clinicians.",
+      "Each vessel includes a solar-powered pharmacy and data lab to expand preventative care across river settlements."
     ],
+    "pullQuote": "\"We designed the fleet with community partners who know the river’s rhythms best,\" said Dr. Ekene Vaughn, associate dean of experiential learning.",
+    "tags": ["Health", "Community"],
     "relatedLinks": [
-      "/public/research.html#centers",
-      "/public/admissions.html#process"
+      {"label": "Visit the River Health Collaboratory", "url": "/research.html#centers"},
+      {"label": "Admissions process for health programmes", "url": "/admissions.html#process"}
     ]
   },
   {
     "title": "Brillar Academy Law Students Win Mock Water Rights Tribunal",
     "date": "2024-12-05",
-    "summary": "A team from Brillar Academy Law School earned top honors at the fictional Cascadia Water Tribunal.",
+    "category": "Student Life",
+    "summary": "A team from Brillar Academy Law School earned top honours at the fictional Cascadia Water Tribunal.",
     "slug": "water-rights-tribunal",
-    "fullContent": "Students argued for equitable water allocations and restorative practices, earning accolades for community-centered reasoning. Judges highlighted their integration of indigenous legal frameworks and environmental data.",
-    "tags": [
-      "Law",
-      "Student Life"
+    "image": "https://images.pexels.com/photos/5668484/pexels-photo-5668484.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1",
+    "imageAlt": "Law students preparing in a courtroom",
+    "imageCaption": "The winning tribunal team reviews closing arguments outside River Forum Hall.",
+    "author": "Jordan Ellis",
+    "readTime": "3 min read",
+    "body": [
+      "Students argued for equitable water allocations and restorative practices, earning accolades for community-centred reasoning.",
+      "Judges highlighted their integration of indigenous legal frameworks, hydrological data, and storytelling from river stewards.",
+      "The team will co-host a regional water justice workshop on campus in February."
     ],
+    "pullQuote": "\"This victory reflects years of partnership with communities who shaped the case briefs alongside us,\" said team captain Lindiwe Mbeki.",
+    "tags": ["Law", "Student Life"],
     "relatedLinks": [
-      "/public/academics.html",
-      "/public/research.html"
+      {"label": "Explore academics at Brillar", "url": "/academics.html"},
+      {"label": "Meet the River Justice Clinic", "url": "/research.html"}
     ]
   },
   {
     "title": "Education Faculty Launches River Schools Leadership Residency",
     "date": "2024-11-18",
+    "category": "Education",
     "summary": "A new residency pairs principals-in-training with river valley schools focusing on climate resilience.",
     "slug": "leadership-residency",
-    "fullContent": "The Learning Futures Observatory will mentor cohorts through co-design studios, outdoor learning labs, and community engagement intensives, culminating in implementation grants for partner schools.",
-    "tags": [
-      "Education",
-      "Leadership"
+    "image": "https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1",
+    "imageAlt": "Educators collaborating in a classroom",
+    "imageCaption": "Residency cohorts co-design climate resilience projects with partner schools.",
+    "author": "Sahra Lopez",
+    "readTime": "4 min read",
+    "body": [
+      "The Learning Futures Observatory will mentor principals-in-training through co-design studios, outdoor learning labs, and community engagement intensives.",
+      "Residency teams receive mini-grants to pilot interdisciplinary curricula addressing climate literacy and civic leadership.",
+      "Applications open in January with the first residency showcase scheduled for August."
     ],
+    "pullQuote": "\"School leaders are eager to create classrooms that respond to climate realities with joy and collaboration,\" said programme lead Dr. Erin Bayo.",
+    "tags": ["Education", "Leadership"],
     "relatedLinks": [
-      "/public/academics.html#faculties",
-      "/public/research.html#centers"
+      {"label": "Download programme FAQs", "url": "/faq.html"},
+      {"label": "Support for graduate educators", "url": "/admissions.html#requirements"}
     ]
   },
   {
     "title": "School of Computing Debuts Civic Data Commons",
     "date": "2024-10-22",
+    "category": "Innovation",
     "summary": "New open-data platform offers real-time river mobility, water quality, and housing indicators.",
     "slug": "civic-data-commons",
-    "fullContent": "Developed by the Civic Data & Privacy Institute, the Commons provides privacy-protected datasets, dashboards, and APIs for innovators. Community members can attend workshops to learn data storytelling techniques.",
-    "tags": [
-      "Computing",
-      "Innovation"
+    "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1",
+    "imageAlt": "Students analysing data dashboards",
+    "imageCaption": "Computing students test accessible dashboards inside the Civic Data Commons studio.",
+    "author": "Ishan Kravitz",
+    "readTime": "5 min read",
+    "body": [
+      "Developed by the Civic Data & Privacy Institute, the Commons provides privacy-protected datasets, dashboards, and APIs for innovators.",
+      "Community members can attend workshops to learn data storytelling techniques and co-create new indicators.",
+      "City partners plan to integrate the Commons with public transit boards and neighbourhood resilience planning tools."
     ],
+    "pullQuote": "\"The Commons keeps residents in control of how their data is collected and shared,\" explained institute director Dr. Safiya Reed.",
+    "tags": ["Computing", "Innovation"],
     "relatedLinks": [
-      "/public/research.html#centers",
-      "/public/news.html#events"
+      {"label": "Browse research centres", "url": "/research.html#centers"},
+      {"label": "See upcoming civic tech events", "url": "/news.html#events"}
     ]
   },
   {
     "title": "Arts Students Illuminate Winter Riverwalk",
     "date": "2024-12-15",
+    "category": "Arts",
     "summary": "River Arts students installed interactive light sculptures celebrating river cultures.",
     "slug": "winter-riverwalk",
-    "fullContent": "The River Arts & Design cohort collaborated with local artisans to create solar-powered installations along the Harborbend riverwalk, drawing thousands of visitors during the fictional winter festival.",
-    "tags": [
-      "Arts",
-      "Community"
+    "image": "https://images.pexels.com/photos/3405551/pexels-photo-3405551.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1",
+    "imageAlt": "Visitors enjoying illuminated outdoor art",
+    "imageCaption": "Interactive light sculptures line Harborbend's winter riverwalk.",
+    "author": "Noah Reyes",
+    "readTime": "3 min read",
+    "body": [
+      "The River Arts & Design cohort collaborated with local artisans to create solar-powered installations celebrating river cultures.",
+      "Community members submitted stories that inspired projection art, music scores, and tactile experiences for visitors of all ages.",
+      "The exhibit will remain open through February with nightly performances by the Brillar Orchestra."
     ],
+    "pullQuote": "\"We wanted residents to feel the river’s warmth even in winter,\" said student artist Mina Gowda.",
+    "tags": ["Arts", "Community"],
     "relatedLinks": [
-      "/public/academics.html",
-      "/public/visit.html"
+      {"label": "Plan your campus visit", "url": "/visit.html"},
+      {"label": "Learn about River Arts programmes", "url": "/academics.html"}
     ]
   },
   {
     "title": "Engineering Alumna Funds Resilience Scholarship",
     "date": "2024-09-20",
+    "category": "Philanthropy",
     "summary": "A $2 million gift establishes scholarships for students pursuing river resilience engineering.",
     "slug": "resilience-scholarship",
-    "fullContent": "Alumna Selene Moru's contribution will support ten annual scholarships, with recipients completing community-based capstone projects focused on infrastructure equity.",
-    "tags": [
-      "Engineering",
-      "Philanthropy"
+    "image": "https://images.pexels.com/photos/3862379/pexels-photo-3862379.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1",
+    "imageAlt": "Engineer reviewing plans with students",
+    "imageCaption": "Alumna Selene Moru tours the River Resilience Engineering Lab with scholarship recipients.",
+    "author": "Isa Bello",
+    "readTime": "4 min read",
+    "body": [
+      "Alumna Selene Moru's contribution will support ten annual scholarships focused on infrastructure equity and climate adaptation.",
+      "Scholars will complete community-based capstone projects and mentorship with industry partners across Harborbend.",
+      "An annual showcase will highlight the scholarship cohort’s impact and research outcomes."
     ],
+    "pullQuote": "\"Investing in resilient infrastructure means investing in students who centre justice,\" Moru shared during the announcement.",
+    "tags": ["Engineering", "Philanthropy"],
     "relatedLinks": [
-      "/public/admissions.html",
-      "/public/academics.html#faculties"
+      {"label": "Support student scholarships", "url": "/alumni.html"},
+      {"label": "Discover engineering programmes", "url": "/academics.html#faculties"}
     ]
   },
   {
     "title": "Brillar Academy Orchestra Premieres Delta Symphony",
     "date": "2024-08-12",
+    "category": "Arts",
     "summary": "Arts & Humanities faculty debuted an original symphony inspired by river ecosystems.",
     "slug": "delta-symphony",
-    "fullContent": "Composer-in-residence Ilyan Mora collaborated with marine biologists to translate estuary soundscapes into orchestral movements, performed to a sold-out fictional audience.",
-    "tags": [
-      "Arts",
-      "Campus Life"
+    "image": "https://images.pexels.com/photos/1763068/pexels-photo-1763068.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1",
+    "imageAlt": "Orchestra performing on stage",
+    "imageCaption": "The Brillar Orchestra performs the Delta Symphony to a sold-out audience.",
+    "author": "Elena Park",
+    "readTime": "3 min read",
+    "body": [
+      "Composer-in-residence Ilyan Mora collaborated with marine biologists to translate estuary soundscapes into orchestral movements.",
+      "The performance paired visual projections with live data from the River Observatory, immersing audiences in fictional river ecosystems.",
+      "Students will tour regional schools this spring with an educational version of the performance."
     ],
+    "pullQuote": "\"Music helps listeners feel the nuance of ecological change in ways charts cannot,\" said conductor Avery Lin.",
+    "tags": ["Arts", "Campus Life"],
     "relatedLinks": [
-      "/public/news.html",
-      "/public/academics.html"
+      {"label": "View upcoming performances", "url": "/news.html#events"},
+      {"label": "Explore arts programmes", "url": "/academics.html"}
     ]
   },
   {
     "title": "Graduate Researchers Publish Telehealth Equity Framework",
     "date": "2024-07-28",
+    "category": "Health",
     "summary": "Public health scholars outlined strategies to ensure inclusive telehealth adoption.",
     "slug": "telehealth-equity-framework",
-    "fullContent": "The River Health Collaboratory released a framework addressing broadband access, cultural relevance, and workforce training, drawing on pilot programs across river towns.",
-    "tags": [
-      "Health",
-      "Research"
+    "image": "https://images.pexels.com/photos/3825533/pexels-photo-3825533.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1",
+    "imageAlt": "Researchers reviewing telehealth tools",
+    "imageCaption": "Graduate scholars test accessibility features for telehealth platforms.",
+    "author": "Mira Adeyemi",
+    "readTime": "4 min read",
+    "body": [
+      "The River Health Collaboratory released a framework addressing broadband access, cultural relevance, and workforce training for telehealth.",
+      "Pilot programmes across river towns informed recommendations that prioritise multilingual support and community health workers.",
+      "The framework will inform policy proposals presented at the Harborbend Health Futures Forum in September."
     ],
+    "pullQuote": "\"Telehealth must be co-designed with the patients who rely on it, not bolted onto existing systems,\" said lead researcher Dr. Jae Lam.",
+    "tags": ["Health", "Research"],
     "relatedLinks": [
-      "/public/research.html#centers",
-      "/public/admissions.html#request-info"
+      {"label": "Download the open data brief", "url": "/open-data.html"},
+      {"label": "Meet our health innovation labs", "url": "/research.html#centers"}
     ]
   },
   {
     "title": "Computing Students Win Civic Tech Challenge",
     "date": "2024-06-10",
-    "summary": "A team developed a privacy-first flood alert app recognized by fictional judges.",
+    "category": "Innovation",
+    "summary": "A team developed a privacy-first flood alert app recognised by fictional judges.",
     "slug": "civic-tech-challenge",
-    "fullContent": "The winning team integrated AI forecasting, multilingual alerts, and offline-first design to serve residents during storm surges. Judges cited the user research conducted with waterfront communities.",
-    "tags": [
-      "Computing",
-      "Innovation"
+    "image": "https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1",
+    "imageAlt": "Students celebrating a hackathon win",
+    "imageCaption": "Winning teammates celebrate after presenting their flood alert prototype.",
+    "author": "Priya Gomez",
+    "readTime": "3 min read",
+    "body": [
+      "The team integrated AI forecasting, multilingual alerts, and offline-first design to support residents during storm surges.",
+      "Judges cited the team’s user research conducted with waterfront communities and emphasis on privacy-first data practices.",
+      "Students will mentor local youth at the upcoming Civic Tech Camp hosted on campus this summer."
     ],
+    "pullQuote": "\"We listened first, then built with residents by our side,\" said team member Theo Marshall.",
+    "tags": ["Computing", "Innovation"],
     "relatedLinks": [
-      "/public/research.html#centers",
-      "/public/academics.html#faculties"
+      {"label": "See hackathon highlights", "url": "/media-kit.html"},
+      {"label": "Find computing programmes", "url": "/academics.html#faculties"}
     ]
   },
   {
     "title": "Education Students Launch River Youth Mentorship Network",
     "date": "2024-05-18",
+    "category": "Community",
     "summary": "Graduate counseling students formed a mentorship collective with local schools.",
     "slug": "youth-mentorship-network",
-    "fullContent": "Under the guidance of the Counseling & Student Wellness department, mentors will support academic planning, climate resilience projects, and college readiness workshops across twelve partner schools.",
-    "tags": [
-      "Education",
-      "Community"
+    "image": "https://images.pexels.com/photos/1644684/pexels-photo-1644684.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1",
+    "imageAlt": "Mentor helping a student with homework",
+    "imageCaption": "Mentors meet weekly with Harbourbend middle school students for project-based learning.",
+    "author": "Lena Brooks",
+    "readTime": "4 min read",
+    "body": [
+      "Under the guidance of the Counseling & Student Wellness department, graduate students formed the River Youth Mentorship Network supporting twelve partner schools.",
+      "Mentors facilitate climate resilience projects, academic planning, and college readiness workshops in collaboration with educators and families.",
+      "The network will host a showcase of student-led solutions during the Harborbend Youth Futures Summit in July."
     ],
+    "pullQuote": "\"Students are designing solutions rooted in their neighbourhoods, and mentors are there to amplify their vision,\" said programme coordinator Damir Cruz.",
+    "tags": ["Education", "Community"],
     "relatedLinks": [
-      "/public/academics.html",
-      "/public/admissions.html"
+      {"label": "Volunteer with community programmes", "url": "/contact.html"},
+      {"label": "Admissions support for educators", "url": "/admissions.html"}
     ]
   }
 ]
