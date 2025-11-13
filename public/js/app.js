@@ -11,6 +11,50 @@ const state = {
   admissionsRequirements: [],
 };
 
+const defaultCourseIcon = {
+  src: 'https://img.icons8.com/color/96/000000/graduation-cap.png',
+  alt: 'Icon representing an academic course',
+};
+
+const courseIcons = {
+  'fac-eng': {
+    src: 'https://img.icons8.com/color/96/000000/engineering.png',
+    alt: 'Stylized gears representing engineering courses',
+  },
+  'fac-sci': {
+    src: 'https://img.icons8.com/color/96/000000/microscope.png',
+    alt: 'Microscope representing science courses',
+  },
+  'fac-arts': {
+    src: 'https://img.icons8.com/color/96/000000/theatre-mask.png',
+    alt: 'Theatre masks representing arts and humanities courses',
+  },
+  'fac-bus': {
+    src: 'https://img.icons8.com/color/96/000000/briefcase.png',
+    alt: 'Briefcase representing business and leadership courses',
+  },
+  'fac-med': {
+    src: 'https://img.icons8.com/color/96/000000/stethoscope.png',
+    alt: 'Stethoscope representing medicine and health courses',
+  },
+  'fac-edu': {
+    src: 'https://img.icons8.com/color/96/000000/classroom.png',
+    alt: 'Classroom chalkboard representing education courses',
+  },
+  'fac-law': {
+    src: 'https://img.icons8.com/color/96/000000/scales.png',
+    alt: 'Scales of justice representing law courses',
+  },
+  'fac-comp': {
+    src: 'https://img.icons8.com/color/96/000000/artificial-intelligence.png',
+    alt: 'Circuit icon representing computing and data science courses',
+  },
+};
+
+function getCourseIcon(course) {
+  return courseIcons[course.facultyId] || defaultCourseIcon;
+}
+
 async function loadJSON(path) {
   const response = await fetch(path);
   return response.json();
@@ -170,14 +214,20 @@ function setupCourseSearch() {
       return;
     }
     results.innerHTML = list
-      .map(
-        (course) => `
-        <article>
-          <h3><a href="/course.html?code=${course.courseCode}">${course.title}</a></h3>
-          <p>${course.shortDescription}</p>
-          <p><strong>Level:</strong> ${course.level} · <strong>Credits:</strong> ${course.credits}</p>
-        </article>`
-      )
+      .map((course) => {
+        const icon = getCourseIcon(course);
+        return `
+        <article class="course-card">
+          <figure class="course-icon">
+            <img src="${icon.src}" alt="${icon.alt}" loading="lazy" width="56" height="56">
+          </figure>
+          <div class="course-card-body">
+            <h3><a href="/course.html?code=${course.courseCode}">${course.title}</a></h3>
+            <p>${course.shortDescription}</p>
+            <p class="course-meta"><strong>Level:</strong> ${course.level} · <strong>Credits:</strong> ${course.credits}</p>
+          </div>
+        </article>`;
+      })
       .join('');
   };
 

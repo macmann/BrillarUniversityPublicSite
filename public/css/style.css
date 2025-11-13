@@ -105,14 +105,14 @@ img {
 .hero,
 .page-hero {
   background: linear-gradient(135deg, rgba(10, 35, 66, 0.92), rgba(47, 107, 79, 0.88)),
-    url('/images/hero-1600x600.jpg') center/cover no-repeat;
+    url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
   color: var(--color-light);
   padding: var(--spacing-xl) 0;
 }
 
 .admissions-hero {
   background: linear-gradient(135deg, rgba(10, 35, 66, 0.9), rgba(63, 167, 214, 0.75)),
-    url('/images/campus-visit-1200x800.jpg') center/cover no-repeat;
+    url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
 }
 
 .hero-content {
@@ -293,13 +293,49 @@ img {
   margin-top: var(--spacing-lg);
   display: grid;
   gap: var(--spacing-sm);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
-.results-list article {
+.results-list .course-card {
   background: var(--color-light);
   border-radius: var(--radius-md);
   padding: var(--spacing-md);
   box-shadow: var(--shadow-soft);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--spacing-sm);
+  align-items: start;
+}
+
+.course-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+  background: rgba(63, 167, 214, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35rem;
+}
+
+.course-icon img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.course-card-body {
+  display: grid;
+  gap: var(--spacing-xs);
+}
+
+.course-card-body h3 {
+  margin: 0;
+}
+
+.course-meta {
+  font-size: 0.9rem;
+  color: var(--color-muted);
 }
 
 .accordion details {
@@ -515,7 +551,7 @@ img {
 
 .news-hero {
   background: linear-gradient(135deg, rgba(10, 35, 66, 0.88), rgba(47, 107, 79, 0.78)),
-    url('/images/news-hydro-1200x630.jpg') center/cover no-repeat;
+    url('https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
 }
 
 .news-header {
