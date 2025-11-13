@@ -34,6 +34,17 @@ The JSON APIs are available under `/public/api/`. Example URLs once the server i
 - `http://localhost:8000/public/api/lecturers.json`
 - `http://localhost:8000/public/api/news.json`
 
+## Deploying to Render
+Render can host the site as a Static Site service. Use the provided `render.yaml` or configure manually:
+
+1. Push this repository to GitHub or another Git provider supported by Render.
+2. In Render, create a **Static Site**. Connect it to the repository.
+3. Set **Build Command** to leave blank (no build step is required).
+4. Set **Publish Directory** to `public`.
+5. Deploy. Render will serve the site at the generated URL.
+
+Alternatively, keep the included `render.yaml` in the root of the repo and choose 'Add from repo' in Render.
+
 ## Placeholder Images
 All image files are empty placeholders. Replace them with photography or illustrations as needed. The `images/placeholder-manifest.txt` file lists recommended dimensions and a royalty-free placeholder URL pattern.
 
