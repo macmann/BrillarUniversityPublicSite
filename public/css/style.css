@@ -105,14 +105,14 @@ img {
 .hero,
 .page-hero {
   background: linear-gradient(135deg, rgba(10, 35, 66, 0.92), rgba(47, 107, 79, 0.88)),
-    url('https://images.pexels.com/photos/1184587/pexels-photo-1184587.jpeg?auto=compress&cs=tinysrgb&w=1600&h=600&dpr=1') center/cover no-repeat;
+    url('/images/hero-1600x600.jpg') center/cover no-repeat;
   color: var(--color-light);
   padding: var(--spacing-xl) 0;
 }
 
 .admissions-hero {
   background: linear-gradient(135deg, rgba(10, 35, 66, 0.9), rgba(63, 167, 214, 0.75)),
-    url('https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress&cs=tinysrgb&w=1800&h=720&dpr=1') center/cover no-repeat;
+    url('/images/campus-visit-1200x800.jpg') center/cover no-repeat;
 }
 
 .hero-content {
@@ -515,7 +515,7 @@ img {
 
 .news-hero {
   background: linear-gradient(135deg, rgba(10, 35, 66, 0.88), rgba(47, 107, 79, 0.78)),
-    url('https://images.pexels.com/photos/598993/pexels-photo-598993.jpeg?auto=compress&cs=tinysrgb&w=1800&h=720&dpr=1') center/cover no-repeat;
+    url('/images/news-hydro-1200x630.jpg') center/cover no-repeat;
 }
 
 .news-header {
