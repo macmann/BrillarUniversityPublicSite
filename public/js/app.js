@@ -18,16 +18,16 @@ async function loadJSON(path) {
 
 async function init() {
   await Promise.all([
-    loadJSON('../data/university.json').then((data) => (state.university = data)),
-    loadJSON('../data/faculties.json').then((data) => (state.faculties = data)),
-    loadJSON('../data/departments.json').then((data) => (state.departments = data)),
-    loadJSON('../data/courses.json').then((data) => (state.courses = data)),
-    loadJSON('../data/lecturers.json').then((data) => (state.lecturers = data)),
-    loadJSON('../data/news.json').then((data) => (state.news = data)),
-    loadJSON('../data/events.json').then((data) => (state.events = data)),
-    loadJSON('../data/research_centers.json').then((data) => (state.researchCenters = data)),
-    loadJSON('../data/intakes.json').then((data) => (state.intakes = data)),
-    loadJSON('../data/admissions_requirements.json').then((data) => (state.admissionsRequirements = data)),
+    loadJSON('/data/university.json').then((data) => (state.university = data)),
+    loadJSON('/data/faculties.json').then((data) => (state.faculties = data)),
+    loadJSON('/data/departments.json').then((data) => (state.departments = data)),
+    loadJSON('/data/courses.json').then((data) => (state.courses = data)),
+    loadJSON('/data/lecturers.json').then((data) => (state.lecturers = data)),
+    loadJSON('/data/news.json').then((data) => (state.news = data)),
+    loadJSON('/data/events.json').then((data) => (state.events = data)),
+    loadJSON('/data/research_centers.json').then((data) => (state.researchCenters = data)),
+    loadJSON('/data/intakes.json').then((data) => (state.intakes = data)),
+    loadJSON('/data/admissions_requirements.json').then((data) => (state.admissionsRequirements = data)),
   ]);
 
   populateFooter();
@@ -100,7 +100,7 @@ function renderHome() {
       .map(
         (item) => `
         <li>
-          <a href="/public/news/${item.slug}.html">${item.title}</a>
+          <a href="/news/${item.slug}.html">${item.title}</a>
           <time datetime="${item.date}">${new Date(item.date).toLocaleDateString()}</time>
         </li>`
       )
@@ -148,7 +148,7 @@ function renderAcademics() {
             <h3>Sample Courses</h3>
             <ul>
               ${sampleCourses
-                .map((course) => `<li><a href="/public/course.html?code=${course.courseCode}">${course.title}</a></li>`)
+                .map((course) => `<li><a href="/course.html?code=${course.courseCode}">${course.title}</a></li>`)
                 .join('')}
             </ul>
           </div>
@@ -173,7 +173,7 @@ function setupCourseSearch() {
       .map(
         (course) => `
         <article>
-          <h3><a href="/public/course.html?code=${course.courseCode}">${course.title}</a></h3>
+          <h3><a href="/course.html?code=${course.courseCode}">${course.title}</a></h3>
           <p>${course.shortDescription}</p>
           <p><strong>Level:</strong> ${course.level} · <strong>Credits:</strong> ${course.credits}</p>
         </article>`
@@ -279,9 +279,9 @@ function renderNews() {
         (item) => `
         <article class="card news-card">
           <time datetime="${item.date}">${new Date(item.date).toLocaleDateString()}</time>
-          <h3><a href="/public/news/${item.slug}.html">${item.title}</a></h3>
+          <h3><a href="/news/${item.slug}.html">${item.title}</a></h3>
           <p>${item.summary}</p>
-          <a class="card-link" href="/public/news/${item.slug}.html">Read more</a>
+          <a class="card-link" href="/news/${item.slug}.html">Read more</a>
         </article>`
       )
       .join('');
@@ -327,7 +327,7 @@ function renderCourseDetail() {
     .filter((item) => item.departmentId === course.departmentId && item.courseCode !== course.courseCode)
     .slice(0, 4);
   document.getElementById('related-courses').innerHTML = related
-    .map((item) => `<li><a href="/public/course.html?code=${item.courseCode}">${item.title}</a></li>`)
+    .map((item) => `<li><a href="/course.html?code=${item.courseCode}">${item.title}</a></li>`)
     .join('');
 }
 
@@ -348,7 +348,7 @@ function renderLecturerDetail() {
     .join('');
   const teachingCourses = state.courses.filter((course) => course.lecturers?.includes(lecturer.id));
   document.getElementById('lecturer-courses').innerHTML = teachingCourses
-    .map((course) => `<li><a href="/public/course.html?code=${course.courseCode}">${course.title}</a></li>`)
+    .map((course) => `<li><a href="/course.html?code=${course.courseCode}">${course.title}</a></li>`)
     .join('');
 }
 
