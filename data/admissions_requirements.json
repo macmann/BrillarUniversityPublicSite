@@ -3,21 +3,21 @@
     "level": "Undergraduate",
     "minimumGPA": "2.8",
     "requiredDocuments": ["Official transcripts", "Personal statement", "One reference", "English proficiency (if applicable)"],
-    "englishTests": ["Rivermark English Assessment 70", "IELTS 6.5", "TOEFL iBT 85"],
+    "englishTests": ["Brillar Academy English Assessment 70", "IELTS 6.5", "TOEFL iBT 85"],
     "scholarshipOverview": "Merit-based awards up to $12,000 annually and need-based grants for qualified applicants."
   },
   {
     "level": "Masters",
     "minimumGPA": "3.0",
     "requiredDocuments": ["Official transcripts", "Two recommendations", "Resume", "Statement of purpose"],
-    "englishTests": ["Rivermark English Assessment 75", "IELTS 7.0", "TOEFL iBT 92"],
+    "englishTests": ["Brillar Academy English Assessment 75", "IELTS 7.0", "TOEFL iBT 92"],
     "scholarshipOverview": "Graduate assistantships and tuition waivers available through research centers and academic departments."
   },
   {
     "level": "PhD",
     "minimumGPA": "3.3",
     "requiredDocuments": ["Graduate transcripts", "Three recommendations", "Research proposal", "Writing sample"],
-    "englishTests": ["Rivermark English Assessment 80", "IELTS 7.5", "TOEFL iBT 100"],
+    "englishTests": ["Brillar Academy English Assessment 80", "IELTS 7.5", "TOEFL iBT 100"],
     "scholarshipOverview": "Doctoral fellows receive stipends, tuition remission, and research travel support through fellowships."
   }
 ]

@@ -4,7 +4,7 @@
     "facultyId": "fac-eng",
     "name": "Department of Civil & Riverine Structures",
     "chairName": "Professor Arelle Myles",
-    "contactEmail": "civil.structures@rivermark.example",
+    "contactEmail": "civil.structures@brillaracademy.example",
     "phone": "+0004101100",
     "description": "Designs adaptive bridges, levees, and waterfront spaces suited to tidal dynamics."
   },
@@ -13,7 +13,7 @@
     "facultyId": "fac-eng",
     "name": "Department of Environmental Systems Engineering",
     "chairName": "Associate Professor Kalen Dhor",
-    "contactEmail": "envsystems@rivermark.example",
+    "contactEmail": "envsystems@brillaracademy.example",
     "phone": "+0004101101",
     "description": "Applies engineering solutions to water quality, energy recovery, and ecological restoration."
   },
@@ -22,7 +22,7 @@
     "facultyId": "fac-eng",
     "name": "Department of Mechanical Automation",
     "chairName": "Professor Jovianna Crest",
-    "contactEmail": "mech.auto@rivermark.example",
+    "contactEmail": "mech.auto@brillaracademy.example",
     "phone": "+0004101102",
     "description": "Advances robotics and manufacturing systems for resilient river corridor industries."
   },
@@ -31,7 +31,7 @@
     "facultyId": "fac-eng",
     "name": "Department of River Transport Systems",
     "chairName": "Dr. Marcen Wilde",
-    "contactEmail": "river.transport@rivermark.example",
+    "contactEmail": "river.transport@brillaracademy.example",
     "phone": "+0004101103",
     "description": "Explores multimodal mobility connecting river ports, rail hubs, and urban transit."
   },
@@ -40,7 +40,7 @@
     "facultyId": "fac-sci",
     "name": "Department of Aquatic & Marine Biology",
     "chairName": "Professor Liora Naveen",
-    "contactEmail": "marine.bio@rivermark.example",
+    "contactEmail": "marine.bio@brillaracademy.example",
     "phone": "+0004201200",
     "description": "Studies freshwater biodiversity, estuary habitats, and conservation genetics."
   },
@@ -49,7 +49,7 @@
     "facultyId": "fac-sci",
     "name": "Department of Chemistry & Advanced Materials",
     "chairName": "Professor Emer Tavek",
-    "contactEmail": "chem.materials@rivermark.example",
+    "contactEmail": "chem.materials@brillaracademy.example",
     "phone": "+0004201201",
     "description": "Synthesizes sustainable polymers, sensors, and catalysts for environmental monitoring."
   },
@@ -58,7 +58,7 @@
     "facultyId": "fac-sci",
     "name": "Department of Physics & Astral Phenomena",
     "chairName": "Associate Professor Imani Quell",
-    "contactEmail": "physics@rivermark.example",
+    "contactEmail": "physics@brillaracademy.example",
     "phone": "+0004201202",
     "description": "Investigates quantum materials, atmospheric optics, and space weather impacts."
   },
@@ -67,7 +67,7 @@
     "facultyId": "fac-sci",
     "name": "Department of Earth & Hydrologic Sciences",
     "chairName": "Professor Daren Liwood",
-    "contactEmail": "earth.hydro@rivermark.example",
+    "contactEmail": "earth.hydro@brillaracademy.example",
     "phone": "+0004201203",
     "description": "Models watershed resilience, sediment flows, and river geomorphology."
   },
@@ -76,7 +76,7 @@
     "facultyId": "fac-arts",
     "name": "Department of River Arts & Design",
     "chairName": "Professor Nayeli Stroud",
-    "contactEmail": "river.arts@rivermark.example",
+    "contactEmail": "river.arts@brillaracademy.example",
     "phone": "+0004301300",
     "description": "Cultivates visual storytelling and public art for waterfront communities."
   },
@@ -85,7 +85,7 @@
     "facultyId": "fac-arts",
     "name": "Department of Heritage & River Histories",
     "chairName": "Associate Professor Lumen Gard",
-    "contactEmail": "heritage@rivermark.example",
+    "contactEmail": "heritage@brillaracademy.example",
     "phone": "+0004301301",
     "description": "Documents cultural narratives and preservation strategies along river corridors."
   },
@@ -94,7 +94,7 @@
     "facultyId": "fac-arts",
     "name": "Department of Linguistics & Interpretation",
     "chairName": "Professor Calia Roane",
-    "contactEmail": "linguistics@rivermark.example",
+    "contactEmail": "linguistics@brillaracademy.example",
     "phone": "+0004301302",
     "description": "Explores multilingual communication and translation in trade ports and creative sectors."
   },
@@ -103,7 +103,7 @@
     "facultyId": "fac-arts",
     "name": "Department of Media Narratives",
     "chairName": "Dr. Oren Talwyn",
-    "contactEmail": "media.narratives@rivermark.example",
+    "contactEmail": "media.narratives@brillaracademy.example",
     "phone": "+0004301303",
     "description": "Produces documentary, broadcast, and immersive media centered on river life."
   },
@@ -112,7 +112,7 @@
     "facultyId": "fac-bus",
     "name": "Department of Sustainable Enterprise",
     "chairName": "Professor Harlan Vey",
-    "contactEmail": "sustainable.business@rivermark.example",
+    "contactEmail": "sustainable.business@brillaracademy.example",
     "phone": "+0004401400",
     "description": "Guides entrepreneurs launching climate-resilient ventures across the river region."
   },
@@ -121,7 +121,7 @@
     "facultyId": "fac-bus",
     "name": "Department of Finance & River Analytics",
     "chairName": "Associate Professor Della Nyk",
-    "contactEmail": "finance.analytics@rivermark.example",
+    "contactEmail": "finance.analytics@brillaracademy.example",
     "phone": "+0004401401",
     "description": "Delivers financial modeling, fintech, and impact investing education."
   },
@@ -130,7 +130,7 @@
     "facultyId": "fac-bus",
     "name": "Department of Public Leadership & Policy",
     "chairName": "Professor Mira Casten",
-    "contactEmail": "public.leadership@rivermark.example",
+    "contactEmail": "public.leadership@brillaracademy.example",
     "phone": "+0004401402",
     "description": "Prepares leaders for civic agencies, NGOs, and collaborative governance roles."
   },
@@ -139,7 +139,7 @@
     "facultyId": "fac-bus",
     "name": "Department of River Hospitality & Tourism",
     "chairName": "Dr. Quinlan Aero",
-    "contactEmail": "hospitality@rivermark.example",
+    "contactEmail": "hospitality@brillaracademy.example",
     "phone": "+0004401403",
     "description": "Curates hospitality operations for river cruises, eco-lodges, and cultural events."
   },
@@ -148,7 +148,7 @@
     "facultyId": "fac-med",
     "name": "Department of Clinical Medical Sciences",
     "chairName": "Professor Selia Hadrin",
-    "contactEmail": "medicine@rivermark.example",
+    "contactEmail": "medicine@brillaracademy.example",
     "phone": "+0004501500",
     "description": "Delivers foundational and clinical sciences for future physicians."
   },
@@ -157,7 +157,7 @@
     "facultyId": "fac-med",
     "name": "Department of Riverland Nursing",
     "chairName": "Associate Professor Taryn Ives",
-    "contactEmail": "nursing@rivermark.example",
+    "contactEmail": "nursing@brillaracademy.example",
     "phone": "+0004501501",
     "description": "Prepares compassionate nurses for community clinics and river health vessels."
   },
@@ -166,7 +166,7 @@
     "facultyId": "fac-med",
     "name": "Department of Public & Community Health",
     "chairName": "Professor Idris Maven",
-    "contactEmail": "public.health@rivermark.example",
+    "contactEmail": "public.health@brillaracademy.example",
     "phone": "+0004501502",
     "description": "Addresses waterborne disease prevention, epidemiology, and health equity."
   },
@@ -175,7 +175,7 @@
     "facultyId": "fac-med",
     "name": "Department of Biomedical Innovation",
     "chairName": "Dr. Renalla Skye",
-    "contactEmail": "biomed@rivermark.example",
+    "contactEmail": "biomed@brillaracademy.example",
     "phone": "+0004501503",
     "description": "Develops medical devices and diagnostics tailored to resource-limited river clinics."
   },
@@ -184,7 +184,7 @@
     "facultyId": "fac-edu",
     "name": "Department of Curriculum Innovation",
     "chairName": "Professor Jalen Sorrell",
-    "contactEmail": "curriculum@rivermark.example",
+    "contactEmail": "curriculum@brillaracademy.example",
     "phone": "+0004601600",
     "description": "Designs inclusive curriculum frameworks for river valley schools."
   },
@@ -193,7 +193,7 @@
     "facultyId": "fac-edu",
     "name": "Department of Counseling & Student Wellness",
     "chairName": "Associate Professor Priya Sen",
-    "contactEmail": "counseling@rivermark.example",
+    "contactEmail": "counseling@brillaracademy.example",
     "phone": "+0004601601",
     "description": "Trains counselors supporting youth wellbeing and college transitions."
   },
@@ -202,7 +202,7 @@
     "facultyId": "fac-edu",
     "name": "Department of Educational Leadership",
     "chairName": "Professor Malek Vass",
-    "contactEmail": "edleadership@rivermark.example",
+    "contactEmail": "edleadership@brillaracademy.example",
     "phone": "+0004601602",
     "description": "Prepares principals and district leaders for collaborative school improvement."
   },
@@ -211,7 +211,7 @@
     "facultyId": "fac-law",
     "name": "Department of Water & Environmental Law",
     "chairName": "Professor Ayra Tomel",
-    "contactEmail": "waterlaw@rivermark.example",
+    "contactEmail": "waterlaw@brillaracademy.example",
     "phone": "+0004701700",
     "description": "Examines riparian rights, resource governance, and maritime regulation."
   },
@@ -220,7 +220,7 @@
     "facultyId": "fac-law",
     "name": "Department of Civic Justice",
     "chairName": "Associate Professor Fen Malik",
-    "contactEmail": "civicjustice@rivermark.example",
+    "contactEmail": "civicjustice@brillaracademy.example",
     "phone": "+0004701701",
     "description": "Focuses on community advocacy, restorative justice, and constitutional law."
   },
@@ -229,7 +229,7 @@
     "facultyId": "fac-law",
     "name": "Department of Indigenous River Rights",
     "chairName": "Professor Shira Omak",
-    "contactEmail": "indigenous.rights@rivermark.example",
+    "contactEmail": "indigenous.rights@brillaracademy.example",
     "phone": "+0004701702",
     "description": "Partners with river nations to advance sovereignty and cultural stewardship."
   },
@@ -238,7 +238,7 @@
     "facultyId": "fac-comp",
     "name": "Department of Intelligent Systems",
     "chairName": "Professor Kaede Lum",
-    "contactEmail": "ai.systems@rivermark.example",
+    "contactEmail": "ai.systems@brillaracademy.example",
     "phone": "+0004801800",
     "description": "Develops AI models for climate resilience, mobility, and public services."
   },
@@ -247,7 +247,7 @@
     "facultyId": "fac-comp",
     "name": "Department of Data Analytics",
     "chairName": "Associate Professor Rion Keats",
-    "contactEmail": "data.analytics@rivermark.example",
+    "contactEmail": "data.analytics@brillaracademy.example",
     "phone": "+0004801801",
     "description": "Applies analytics to urban planning, health systems, and civic engagement."
   },
@@ -256,7 +256,7 @@
     "facultyId": "fac-comp",
     "name": "Department of Cybersecurity & Privacy",
     "chairName": "Professor Juniper Varek",
-    "contactEmail": "cyber@rivermark.example",
+    "contactEmail": "cyber@brillaracademy.example",
     "phone": "+0004801802",
     "description": "Safeguards digital infrastructure supporting water utilities and smart cities."
   },
@@ -265,7 +265,7 @@
     "facultyId": "fac-comp",
     "name": "Department of Interactive Media Engineering",
     "chairName": "Dr. Lysa Corvin",
-    "contactEmail": "interactive.media@rivermark.example",
+    "contactEmail": "interactive.media@brillaracademy.example",
     "phone": "+0004801803",
     "description": "Designs immersive learning experiences and extended reality environments."
   }
