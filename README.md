@@ -1,7 +1,7 @@
-# Rivermark University Public Site (Fictional)
+# Brillar Academy Public Site (Fictional)
 
 ## Overview
-This repository contains a fully static, fictional public website for **Rivermark University**. All names, people, and organizations are fictional. The site showcases responsive layouts, admissions guidance, program search, research highlights, and structured data suited for demos.
+This repository contains a fully static, fictional public website for **Brillar Academy**. All names, people, and organizations are fictional. The site showcases responsive layouts, admissions guidance, program search, research highlights, and structured data suited for demos.
 
 ## Project Structure
 ```
@@ -9,7 +9,7 @@ public/         # HTML pages, API endpoint JSON copies, sitemap, RSS, robots.txt
 css/            # Global stylesheet
 js/             # Minimal client-side interactions and data loaders
 data/           # Canonical JSON data sources and SQL seed script
-images/         # Placeholder asset manifest and empty image files
+images/         # Manifest noting remote royalty-free imagery references
 ```
 
 ## Running Locally

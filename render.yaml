@@ -1,6 +1,6 @@
 services:
   - type: static_site
-    name: rivermark-university-public-site
+    name: brillar-academy-public-site
     buildCommand: ""
     staticPublishPath: public
     pullRequestPreviewsEnabled: false
