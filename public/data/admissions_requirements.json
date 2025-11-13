@@ -1,23 +1,52 @@
 [
   {
     "level": "Undergraduate",
-    "minimumGPA": "2.8",
-    "requiredDocuments": ["Official transcripts", "Personal statement", "One reference", "English proficiency (if applicable)"],
-    "englishTests": ["Brillar Academy English Assessment 70", "IELTS 6.5", "TOEFL iBT 85"],
-    "scholarshipOverview": "Merit-based awards up to $12,000 annually and need-based grants for qualified applicants."
+    "title": "First-year & transfer applicants",
+    "minimumGPA": "2.8 cumulative (3.2 for premier scholarships)",
+    "requiredDocuments": [
+      "Official secondary or college transcripts",
+      "Personal statement responding to two prompts",
+      "One academic or community recommendation",
+      "Optional creative portfolio for studio majors"
+    ],
+    "englishTests": ["Brillar Academy English Assessment 70", "IELTS 6.5", "TOEFL iBT 85", "Duolingo 115"],
+    "scholarshipOverview": "Automatic merit review plus need-based grants, housing bursaries, and work-study placements.",
+    "testingNotes": "Standardised test scores are welcome but not required; share them if they strengthen your story.",
+    "additionalNotes": "International students receive dedicated visa and relocation advising within 72 hours of admission.",
+    "supportContact": "Ask an undergraduate admissions coach · weekdays 09:00–18:00 Harborbend time"
   },
   {
     "level": "Masters",
-    "minimumGPA": "3.0",
-    "requiredDocuments": ["Official transcripts", "Two recommendations", "Resume", "Statement of purpose"],
+    "title": "Masters degree applicants",
+    "minimumGPA": "3.0 in the final 60 credits",
+    "requiredDocuments": [
+      "Official transcripts from all post-secondary institutions",
+      "Two professional or academic recommendations",
+      "Current resume or CV",
+      "Statement of purpose outlining goals and impact",
+      "Portfolio or writing sample where applicable"
+    ],
     "englishTests": ["Brillar Academy English Assessment 75", "IELTS 7.0", "TOEFL iBT 92"],
-    "scholarshipOverview": "Graduate assistantships and tuition waivers available through research centers and academic departments."
+    "scholarshipOverview": "Graduate assistantships, employer partnerships, and micro-grants for fieldwork and certification.",
+    "testingNotes": "GRE or GMAT scores are optional; some programmes may request an interview or technical assessment.",
+    "additionalNotes": "Applicants with three+ years of experience are eligible for the Professional Impact Scholarship.",
+    "supportContact": "Connect with the graduate concierge team · grad-admissions@brillaracademy.example"
   },
   {
     "level": "PhD",
-    "minimumGPA": "3.3",
-    "requiredDocuments": ["Graduate transcripts", "Three recommendations", "Research proposal", "Writing sample"],
+    "title": "Doctoral fellowship applicants",
+    "minimumGPA": "3.3 graduate GPA with evidence of research distinction",
+    "requiredDocuments": [
+      "Graduate transcripts and degree certificates",
+      "Three scholarly recommendations",
+      "Research proposal aligned with a Brillar research cluster",
+      "Academic writing sample or published work",
+      "Funding plan or external sponsorship details (if applicable)"
+    ],
     "englishTests": ["Brillar Academy English Assessment 80", "IELTS 7.5", "TOEFL iBT 100"],
-    "scholarshipOverview": "Doctoral fellows receive stipends, tuition remission, and research travel support through fellowships."
+    "scholarshipOverview": "Doctoral fellows receive multiyear stipends, tuition remission, and research travel allowances.",
+    "testingNotes": "Select programmes may require a quantitative reasoning assessment during interviews.",
+    "additionalNotes": "Faculty advisors review proposals prior to final decisions; connect early to refine your research focus.",
+    "supportContact": "Email the doctoral pathways team · doctoral@brillaracademy.example"
   }
 ]

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>News & Events | Brillar Academy</title>
-  <meta name="description" content="Stay informed with the latest fictional news stories and events from Brillar Academy.">
+  <meta name="description" content="Discover the latest fictional research breakthroughs, student achievements, and community events from Brillar Academy.">
   <link rel="canonical" href="https://www.brillar-academy.example/news">
   <link rel="stylesheet" href="/css/style.css">
   <script defer src="/js/app.js"></script>
@@ -33,24 +33,57 @@
   </header>
 
   <main>
-    <section class="page-hero">
-      <div class="container">
-        <h1>News & Events</h1>
-        <p>Read the latest breakthroughs, campus highlights, and upcoming gatherings from Brillar Academy.</p>
+    <section class="page-hero news-hero">
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <h1>News &amp; Events</h1>
+          <p>Follow the discoveries, partnerships, and student stories shaping Harborbend's river-resilient future. Browse by category or dive into upcoming events to meet the people behind the breakthroughs.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#news">Explore latest stories</a>
+            <a class="btn ghost" href="#events">See upcoming events</a>
+          </div>
+        </div>
+        <figure class="hero-media">
+          <img src="https://images.pexels.com/photos/1181398/pexels-photo-1181398.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1" alt="Students filming a community innovation showcase">
+          <figcaption>Our storytellers spotlight labs, community partners, and student creators every week.</figcaption>
+        </figure>
       </div>
     </section>
 
-    <section class="news-list" aria-labelledby="news-heading">
+    <section id="news" class="news-list" aria-labelledby="news-heading">
       <div class="container">
-        <h2 id="news-heading">Latest News</h2>
-        <div id="news-cards" class="card-grid"></div>
+        <header class="news-header">
+          <h2 id="news-heading">Latest stories</h2>
+          <p class="section-intro">Curated highlights from research labs, classrooms, and river communities. Each card links to a full article packed with visuals, quotes, and related resources.</p>
+        </header>
+        <div id="news-cards" class="news-card-grid"></div>
       </div>
     </section>
 
     <section id="events" class="events" aria-labelledby="events-heading">
       <div class="container">
-        <h2 id="events-heading">Upcoming Events</h2>
+        <h2 id="events-heading">Upcoming events</h2>
         <ul id="events-items" class="event-list"></ul>
+      </div>
+    </section>
+
+    <section class="news-subscribe" aria-labelledby="subscribe-heading">
+      <div class="container subscribe-grid">
+        <div>
+          <h2 id="subscribe-heading">Get the Riverline newsletter</h2>
+          <p>Receive monthly updates featuring faculty insights, student spotlights, and invitations to virtual events. Unsubscribe anytime.</p>
+          <form class="subscribe-form" action="#" method="post">
+            <label for="subscribe-email">Email address</label>
+            <div class="subscribe-input">
+              <input id="subscribe-email" name="email" type="email" placeholder="you@example.com" required>
+              <button type="submit" class="btn primary">Subscribe</button>
+            </div>
+          </form>
+        </div>
+        <figure class="subscribe-media">
+          <img src="https://images.pexels.com/photos/1438076/pexels-photo-1438076.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&dpr=1" alt="Newsletter mockups displayed on a tablet and smartphone">
+          <figcaption>The Riverline delivers behind-the-scenes lab stories and event recaps.</figcaption>
+        </figure>
       </div>
     </section>
   </main>
