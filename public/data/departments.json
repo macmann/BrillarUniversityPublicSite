@@ -1,0 +1,272 @@
+[
+  {
+    "id": "dept-civ-structures",
+    "facultyId": "fac-eng",
+    "name": "Department of Civil & Riverine Structures",
+    "chairName": "Professor Arelle Myles",
+    "contactEmail": "civil.structures@rivermark.example",
+    "phone": "+0004101100",
+    "description": "Designs adaptive bridges, levees, and waterfront spaces suited to tidal dynamics."
+  },
+  {
+    "id": "dept-env-systems",
+    "facultyId": "fac-eng",
+    "name": "Department of Environmental Systems Engineering",
+    "chairName": "Associate Professor Kalen Dhor",
+    "contactEmail": "envsystems@rivermark.example",
+    "phone": "+0004101101",
+    "description": "Applies engineering solutions to water quality, energy recovery, and ecological restoration."
+  },
+  {
+    "id": "dept-mech-automation",
+    "facultyId": "fac-eng",
+    "name": "Department of Mechanical Automation",
+    "chairName": "Professor Jovianna Crest",
+    "contactEmail": "mech.auto@rivermark.example",
+    "phone": "+0004101102",
+    "description": "Advances robotics and manufacturing systems for resilient river corridor industries."
+  },
+  {
+    "id": "dept-river-transport",
+    "facultyId": "fac-eng",
+    "name": "Department of River Transport Systems",
+    "chairName": "Dr. Marcen Wilde",
+    "contactEmail": "river.transport@rivermark.example",
+    "phone": "+0004101103",
+    "description": "Explores multimodal mobility connecting river ports, rail hubs, and urban transit."
+  },
+  {
+    "id": "dept-marine-biology",
+    "facultyId": "fac-sci",
+    "name": "Department of Aquatic & Marine Biology",
+    "chairName": "Professor Liora Naveen",
+    "contactEmail": "marine.bio@rivermark.example",
+    "phone": "+0004201200",
+    "description": "Studies freshwater biodiversity, estuary habitats, and conservation genetics."
+  },
+  {
+    "id": "dept-chemistry-materials",
+    "facultyId": "fac-sci",
+    "name": "Department of Chemistry & Advanced Materials",
+    "chairName": "Professor Emer Tavek",
+    "contactEmail": "chem.materials@rivermark.example",
+    "phone": "+0004201201",
+    "description": "Synthesizes sustainable polymers, sensors, and catalysts for environmental monitoring."
+  },
+  {
+    "id": "dept-physics-astral",
+    "facultyId": "fac-sci",
+    "name": "Department of Physics & Astral Phenomena",
+    "chairName": "Associate Professor Imani Quell",
+    "contactEmail": "physics@rivermark.example",
+    "phone": "+0004201202",
+    "description": "Investigates quantum materials, atmospheric optics, and space weather impacts."
+  },
+  {
+    "id": "dept-earth-hydro",
+    "facultyId": "fac-sci",
+    "name": "Department of Earth & Hydrologic Sciences",
+    "chairName": "Professor Daren Liwood",
+    "contactEmail": "earth.hydro@rivermark.example",
+    "phone": "+0004201203",
+    "description": "Models watershed resilience, sediment flows, and river geomorphology."
+  },
+  {
+    "id": "dept-river-arts",
+    "facultyId": "fac-arts",
+    "name": "Department of River Arts & Design",
+    "chairName": "Professor Nayeli Stroud",
+    "contactEmail": "river.arts@rivermark.example",
+    "phone": "+0004301300",
+    "description": "Cultivates visual storytelling and public art for waterfront communities."
+  },
+  {
+    "id": "dept-history-heritage",
+    "facultyId": "fac-arts",
+    "name": "Department of Heritage & River Histories",
+    "chairName": "Associate Professor Lumen Gard",
+    "contactEmail": "heritage@rivermark.example",
+    "phone": "+0004301301",
+    "description": "Documents cultural narratives and preservation strategies along river corridors."
+  },
+  {
+    "id": "dept-linguistics",
+    "facultyId": "fac-arts",
+    "name": "Department of Linguistics & Interpretation",
+    "chairName": "Professor Calia Roane",
+    "contactEmail": "linguistics@rivermark.example",
+    "phone": "+0004301302",
+    "description": "Explores multilingual communication and translation in trade ports and creative sectors."
+  },
+  {
+    "id": "dept-media-narratives",
+    "facultyId": "fac-arts",
+    "name": "Department of Media Narratives",
+    "chairName": "Dr. Oren Talwyn",
+    "contactEmail": "media.narratives@rivermark.example",
+    "phone": "+0004301303",
+    "description": "Produces documentary, broadcast, and immersive media centered on river life."
+  },
+  {
+    "id": "dept-sustainable-enterprise",
+    "facultyId": "fac-bus",
+    "name": "Department of Sustainable Enterprise",
+    "chairName": "Professor Harlan Vey",
+    "contactEmail": "sustainable.business@rivermark.example",
+    "phone": "+0004401400",
+    "description": "Guides entrepreneurs launching climate-resilient ventures across the river region."
+  },
+  {
+    "id": "dept-finance-analytics",
+    "facultyId": "fac-bus",
+    "name": "Department of Finance & River Analytics",
+    "chairName": "Associate Professor Della Nyk",
+    "contactEmail": "finance.analytics@rivermark.example",
+    "phone": "+0004401401",
+    "description": "Delivers financial modeling, fintech, and impact investing education."
+  },
+  {
+    "id": "dept-public-leadership",
+    "facultyId": "fac-bus",
+    "name": "Department of Public Leadership & Policy",
+    "chairName": "Professor Mira Casten",
+    "contactEmail": "public.leadership@rivermark.example",
+    "phone": "+0004401402",
+    "description": "Prepares leaders for civic agencies, NGOs, and collaborative governance roles."
+  },
+  {
+    "id": "dept-hospitality",
+    "facultyId": "fac-bus",
+    "name": "Department of River Hospitality & Tourism",
+    "chairName": "Dr. Quinlan Aero",
+    "contactEmail": "hospitality@rivermark.example",
+    "phone": "+0004401403",
+    "description": "Curates hospitality operations for river cruises, eco-lodges, and cultural events."
+  },
+  {
+    "id": "dept-medical-sciences",
+    "facultyId": "fac-med",
+    "name": "Department of Clinical Medical Sciences",
+    "chairName": "Professor Selia Hadrin",
+    "contactEmail": "medicine@rivermark.example",
+    "phone": "+0004501500",
+    "description": "Delivers foundational and clinical sciences for future physicians."
+  },
+  {
+    "id": "dept-nursing",
+    "facultyId": "fac-med",
+    "name": "Department of Riverland Nursing",
+    "chairName": "Associate Professor Taryn Ives",
+    "contactEmail": "nursing@rivermark.example",
+    "phone": "+0004501501",
+    "description": "Prepares compassionate nurses for community clinics and river health vessels."
+  },
+  {
+    "id": "dept-public-health",
+    "facultyId": "fac-med",
+    "name": "Department of Public & Community Health",
+    "chairName": "Professor Idris Maven",
+    "contactEmail": "public.health@rivermark.example",
+    "phone": "+0004501502",
+    "description": "Addresses waterborne disease prevention, epidemiology, and health equity."
+  },
+  {
+    "id": "dept-biomedical-innovation",
+    "facultyId": "fac-med",
+    "name": "Department of Biomedical Innovation",
+    "chairName": "Dr. Renalla Skye",
+    "contactEmail": "biomed@rivermark.example",
+    "phone": "+0004501503",
+    "description": "Develops medical devices and diagnostics tailored to resource-limited river clinics."
+  },
+  {
+    "id": "dept-curriculum-innovation",
+    "facultyId": "fac-edu",
+    "name": "Department of Curriculum Innovation",
+    "chairName": "Professor Jalen Sorrell",
+    "contactEmail": "curriculum@rivermark.example",
+    "phone": "+0004601600",
+    "description": "Designs inclusive curriculum frameworks for river valley schools."
+  },
+  {
+    "id": "dept-counseling",
+    "facultyId": "fac-edu",
+    "name": "Department of Counseling & Student Wellness",
+    "chairName": "Associate Professor Priya Sen",
+    "contactEmail": "counseling@rivermark.example",
+    "phone": "+0004601601",
+    "description": "Trains counselors supporting youth wellbeing and college transitions."
+  },
+  {
+    "id": "dept-educational-leadership",
+    "facultyId": "fac-edu",
+    "name": "Department of Educational Leadership",
+    "chairName": "Professor Malek Vass",
+    "contactEmail": "edleadership@rivermark.example",
+    "phone": "+0004601602",
+    "description": "Prepares principals and district leaders for collaborative school improvement."
+  },
+  {
+    "id": "dept-water-law",
+    "facultyId": "fac-law",
+    "name": "Department of Water & Environmental Law",
+    "chairName": "Professor Ayra Tomel",
+    "contactEmail": "waterlaw@rivermark.example",
+    "phone": "+0004701700",
+    "description": "Examines riparian rights, resource governance, and maritime regulation."
+  },
+  {
+    "id": "dept-civic-justice",
+    "facultyId": "fac-law",
+    "name": "Department of Civic Justice",
+    "chairName": "Associate Professor Fen Malik",
+    "contactEmail": "civicjustice@rivermark.example",
+    "phone": "+0004701701",
+    "description": "Focuses on community advocacy, restorative justice, and constitutional law."
+  },
+  {
+    "id": "dept-indigenous-rights",
+    "facultyId": "fac-law",
+    "name": "Department of Indigenous River Rights",
+    "chairName": "Professor Shira Omak",
+    "contactEmail": "indigenous.rights@rivermark.example",
+    "phone": "+0004701702",
+    "description": "Partners with river nations to advance sovereignty and cultural stewardship."
+  },
+  {
+    "id": "dept-ai-systems",
+    "facultyId": "fac-comp",
+    "name": "Department of Intelligent Systems",
+    "chairName": "Professor Kaede Lum",
+    "contactEmail": "ai.systems@rivermark.example",
+    "phone": "+0004801800",
+    "description": "Develops AI models for climate resilience, mobility, and public services."
+  },
+  {
+    "id": "dept-data-analytics",
+    "facultyId": "fac-comp",
+    "name": "Department of Data Analytics",
+    "chairName": "Associate Professor Rion Keats",
+    "contactEmail": "data.analytics@rivermark.example",
+    "phone": "+0004801801",
+    "description": "Applies analytics to urban planning, health systems, and civic engagement."
+  },
+  {
+    "id": "dept-cybersecurity",
+    "facultyId": "fac-comp",
+    "name": "Department of Cybersecurity & Privacy",
+    "chairName": "Professor Juniper Varek",
+    "contactEmail": "cyber@rivermark.example",
+    "phone": "+0004801802",
+    "description": "Safeguards digital infrastructure supporting water utilities and smart cities."
+  },
+  {
+    "id": "dept-interactive-media",
+    "facultyId": "fac-comp",
+    "name": "Department of Interactive Media Engineering",
+    "chairName": "Dr. Lysa Corvin",
+    "contactEmail": "interactive.media@rivermark.example",
+    "phone": "+0004801803",
+    "description": "Designs immersive learning experiences and extended reality environments."
+  }
+]

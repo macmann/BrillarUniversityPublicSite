@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fac-eng",
+    "name": "Faculty of Engineering",
+    "description": "Integrates civil, mechanical, and environmental engineering with river infrastructure innovation.",
+    "link": "/public/academics.html#fac-eng"
+  },
+  {
+    "id": "fac-sci",
+    "name": "Faculty of Science",
+    "description": "Advances environmental sciences, chemistry, physics, and life sciences for resilient ecosystems.",
+    "link": "/public/academics.html#fac-sci"
+  },
+  {
+    "id": "fac-arts",
+    "name": "Faculty of Arts & Humanities",
+    "description": "Celebrates creative expression, histories, and languages of river-connected cultures.",
+    "link": "/public/academics.html#fac-arts"
+  },
+  {
+    "id": "fac-bus",
+    "name": "School of Business & Leadership",
+    "description": "Prepares ethical leaders for sustainable enterprises and social innovation ventures.",
+    "link": "/public/academics.html#fac-bus"
+  },
+  {
+    "id": "fac-med",
+    "name": "College of Medicine & Health Sciences",
+    "description": "Delivers interprofessional training across medicine, nursing, and public health.",
+    "link": "/public/academics.html#fac-med"
+  },
+  {
+    "id": "fac-edu",
+    "name": "Faculty of Education & Human Development",
+    "description": "Empowers educators and counselors to champion inclusive learning pathways.",
+    "link": "/public/academics.html#fac-edu"
+  },
+  {
+    "id": "fac-law",
+    "name": "Rivermark Law School",
+    "description": "Shapes advocates in water rights, civic governance, and community law.",
+    "link": "/public/academics.html#fac-law"
+  },
+  {
+    "id": "fac-comp",
+    "name": "School of Computing & Data Sciences",
+    "description": "Explores AI, data analytics, and software systems for smart river regions.",
+    "link": "/public/academics.html#fac-comp"
+  }
+]
